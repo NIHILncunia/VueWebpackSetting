@@ -8,7 +8,7 @@ module.exports = {
     extensions: ['.js', '.vue'],
   },
   entry: {
-    app: path.join(__dirname, 'main'),
+    app: path.resolve(__dirname, 'src', 'index'),
   },
   module: {
     rules: [

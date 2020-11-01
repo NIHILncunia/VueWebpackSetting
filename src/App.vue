@@ -7,11 +7,13 @@
 
 <script>
 export default {
+  components: {},
   data() {
     return {
       name: '니힐',
     };
   },
+  methods: {},
 };
 </script>
 
