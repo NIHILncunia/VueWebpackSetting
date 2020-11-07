@@ -1,6 +1,7 @@
 <template>
   <div>
     <p>Hello {{ name }}!!</p>
+    <button @click="onClickButton">변경</button>
   </div>
 </template>
 
@@ -12,7 +13,11 @@ export default {
       name: 'Vue',
     };
   },
-  methods: {},
+  methods: {
+    onClickButton() {
+      this.name = 'React';
+    },
+  },
 };
 </script>
 
