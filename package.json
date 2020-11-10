@@ -5,12 +5,12 @@
   "main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+github.com:project-name.git"
+    "url": "git+github.com:NIHILncunia/VueWebpackSetting.git"
   },
   "bugs": {
-    "url": "https://github.com:project-name/issues"
+    "url": "https://github.com:NIHILncunia/VueWebpackSetting/issues"
   },
-  "homepage": "https://github.com:project-name#readme",
+  "homepage": "https://github.com:NIHILncunia/VueWebpackSetting#readme",
   "scripts": {
     "serve": "webpack serve --config webpack.dev.js",
     "prod": "webpack --config webpack.prod.js"
