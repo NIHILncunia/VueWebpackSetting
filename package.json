@@ -1,20 +1,23 @@
 {
-  "name": "name",
+  "name": "project-name",
   "version": "1.0.0",
-  "description": "description",
+  "description": "Project Description",
   "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+github.com:project-name.git"
+  },
+  "bugs": {
+    "url": "https://github.com:project-name/issues"
+  },
+  "homepage": "https://github.com:project-name#readme",
   "scripts": {
     "serve": "webpack serve --config webpack.dev.js",
     "prod": "webpack --config webpack.prod.js"
   },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
   "keywords": [],
-  "author": "",
+  "author": "NIHILncunia",
   "license": "MIT",
-  "homepage": "",
   "dependencies": {
     "vue": "^2.6.12",
     "vuex": "^3.5.1"
