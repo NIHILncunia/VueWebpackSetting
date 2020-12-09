@@ -46,7 +46,12 @@ export default {
   methods: {
     // 메소드
     onClickButton() {
-      this.name = 'React';
+
+      if (this.name === 'Vue') {
+        this.name = 'React';
+      } else {
+        this.name = 'Vue';
+      }
     },
   },
 };
