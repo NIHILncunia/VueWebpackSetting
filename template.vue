@@ -1,24 +1,24 @@
 <template>
-  <div>내용</div>
+  <div></div>
 </template>
 
 <script>
 export default {
-  'name': '',
-  'components': {
+  name: '',
+  components: {
     // 컴포넌트
   },
-  'props': {
+  props: {
     // 프롭스
   },
   data() {
     // 데이터
     return {};
   },
-  'computed': {
+  computed: {
     // 가공된 데이터
   },
-  'watch': {
+  watch: {
     // 데이터 감시
   },
   
@@ -38,7 +38,7 @@ export default {
   destroyed() {
     // 생명주기 - 소멸
   },
-  'methods': {
+  methods: {
     // 메소드
   },
 };
