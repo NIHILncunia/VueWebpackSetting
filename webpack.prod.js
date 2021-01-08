@@ -2,28 +2,36 @@ const path = require('path');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 module.exports = {
-  'mode': 'production',
-  'devtool': 'source-map',
-  'resolve': {
-    'extensions': [ '.js', '.vue', ],
+  mode: 'production',
+  devtool: 'source-map',
+  resolve: {
+    extensions: [ '.js', '.vue', ],
+    alias: {
+      '@': path.resolve(__dirname, 'src/'),
+      '@components': path.resolve(__dirname, 'src/components/'),
+      '@store': path.resolve(__dirname, 'src/store/'),
+      '@assets': path.resolve(__dirname, 'src/assets/'),
+      '@images': path.resolve(__dirname, 'src/assets/images/'),
+      '@css': path.resolve(__dirname, 'src/assets/css/'),
+    },
   },
-  'entry': {
-    'app': path.resolve(__dirname, 'src', 'index'),
+  entry: {
+    app: path.resolve(__dirname, 'src', 'index'),
   },
-  'module': {
-    'rules': [
+  module: {
+    rules: [
       {
-        'test': /\.vue$/,
-        'use': 'vue-loader',
+        test: /\.vue$/,
+        use: 'vue-loader',
       },
       {
-        'test': [ /\.s[ac]ss$/i, /\.css$/i, ],
-        'use': [
+        test: [ /\.s[ac]ss$/i, /\.css$/i, ],
+        use: [
           'vue-style-loader',
           {
-            'loader': 'css-loader',
-            'options': {
-              'esModule': false,
+            loader: 'css-loader',
+            options: {
+              esModule: false,
             },
           },
           'sass-loader',
@@ -31,11 +39,11 @@ module.exports = {
       },
     ],
   },
-  'plugins': [
+  plugins: [
     new VueLoaderPlugin(),
   ],
-  'output': {
-    'filename': '[name].js',
-    'path': path.join(__dirname, 'build'),
+  output: {
+    filename: '[name].js',
+    path: path.join(__dirname, 'build'),
   },
 };
