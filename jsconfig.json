@@ -6,6 +6,7 @@
       "@components/*": ["./src/components/*"],
       "@store/*": ["./src/store/*"],
       "@assets/*": ["./src/assets/*"],
+      "@utils/*": ["./src/utils/*"],
       "@images/*": ["./src/assets/images/*"],
       "@css/*": ["./src/assets/css/*"],
     }
