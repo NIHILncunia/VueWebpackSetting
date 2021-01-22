@@ -46,7 +46,6 @@ export default {
   methods: {
     // 메소드
     onClickButton() {
-
       if (this.name === 'Vue') {
         this.name = 'React';
       } else {
