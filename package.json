@@ -19,22 +19,23 @@
   "author": "NIHILncunia",
   "license": "MIT",
   "dependencies": {
+    "uuid4": "^2.0.2",
     "vue": "^2.6.12",
     "vuex": "^3.6.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^5.0.1",
-    "eslint": "^7.17.0",
+    "eslint": "^7.18.0",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-vue": "^7.4.1",
-    "sass": "^1.32.2",
-    "sass-loader": "^10.1.0",
+    "eslint-plugin-vue": "^7.5.0",
+    "sass": "^1.32.5",
+    "sass-loader": "^10.1.1",
     "vue-loader": "^15.9.6",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.12",
-    "webpack": "^5.12.1",
-    "webpack-cli": "^4.3.1",
-    "webpack-dev-server": "^3.11.1"
+    "webpack": "^5.16.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
