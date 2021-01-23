@@ -35,10 +35,10 @@ module.exports = {
     'eol-last': [ 1, 'never', ],
     'space-before-function-paren': 0,
     'array-bracket-spacing': [ 1, 'always', {
-        arraysInArrays: true,
-        singleValue: true,
-        objectsInArrays: true,
-      }, ],
+      arraysInArrays: true,
+      singleValue: true,
+      objectsInArrays: true,
+    }, ],
     'arrow-parens': 0,
     'comma-spacing': [ 1, { before: false, after: true, }, ],
     'comma-dangle': [ 1, {
@@ -51,12 +51,12 @@ module.exports = {
     'block-spacing': [ 1, 'always', ],
     'func-call-spacing': [ 1, 'never', ],
     'object-curly-spacing': [ 1, 'always', ],
-    'arrow-spacing': [ 1, { 'before': true, 'after': true, }, ],
+    'arrow-spacing': [ 1, { before: true, after: true, }, ],
     'keyword-spacing': [ 1, {
       overrides: {
-        'if': { 'before': true, 'after': true, },
-        'for': { 'before': true, 'after': true, },
-        'while': { 'before': true, 'after': true, },
+        'if': { before: true, after: true, },
+        'for': { before: true, after: true, },
+        'while': { before: true, after: true, },
       },
     }, ],
 
