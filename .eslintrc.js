@@ -54,9 +54,9 @@ module.exports = {
     'arrow-spacing': [ 1, { before: true, after: true, }, ],
     'keyword-spacing': [ 1, {
       overrides: {
-        'if': { before: true, after: true, },
-        'for': { before: true, after: true, },
-        'while': { before: true, after: true, },
+        if: { before: true, after: true, },
+        for: { before: true, after: true, },
+        while: { before: true, after: true, },
       },
     }, ],
 
