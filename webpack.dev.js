@@ -10,12 +10,11 @@ module.exports = {
       '@': path.resolve(__dirname, 'src/'),
       '@components': path.resolve(__dirname, 'src/components/'),
       '@store': path.resolve(__dirname, 'src/store/'),
-      '@assets': path.resolve(__dirname, 'src/assets/'),
       '@utils': path.resolve(__dirname, 'src/utils/'),
       '@pages': path.resolve(__dirname, 'src/pages/'),
       '@layouts': path.resolve(__dirname, 'src/layouts/'),
-      '@images': path.resolve(__dirname, 'src/assets/images/'),
-      '@css': path.resolve(__dirname, 'src/assets/css/'),
+      '@images': path.resolve(__dirname, 'src/images/'),
+      '@styles': path.resolve(__dirname, 'src/styles/'),
     },
   },
   entry: {
@@ -32,7 +31,7 @@ module.exports = {
         use: [
           'vue-style-loader',
           {
-            loader: 'css-loader',
+            loader: 'styles-loader',
             options: {
               esModule: false,
             },

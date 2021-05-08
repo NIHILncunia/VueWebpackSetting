@@ -57,9 +57,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  p {
-    color: #ffffff;
-    background: #333333;
-    padding: 10px;
-  }
+p {
+  color: #ffffff;
+  background: #333333;
+  padding: 10px;
+}
 </style>
