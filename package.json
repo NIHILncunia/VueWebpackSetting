@@ -5,12 +5,12 @@
   "main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+github.com:NIHILncunia/VueWebpackSetting.git"
+    "url": "git+github.com:NIHILncunia/nihil-vue-template.git"
   },
   "bugs": {
-    "url": "https://github.com:NIHILncunia/VueWebpackSetting/issues"
+    "url": "https://github.com:NIHILncunia/nihil-vue-template/issues"
   },
-  "homepage": "https://github.com:NIHILncunia/VueWebpackSetting#readme",
+  "homepage": "https://github.com:NIHILncunia/nihil-vue-template#readme",
   "scripts": {
     "serve": "webpack serve --config webpack.dev.js",
     "prod": "webpack --config webpack.prod.js"
