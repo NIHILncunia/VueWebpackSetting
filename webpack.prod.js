@@ -8,13 +8,13 @@ module.exports = {
     extensions: [ '.js', '.vue', ],
     alias: {
       '@': path.resolve(__dirname, 'src/'),
-      '@components': path.resolve(__dirname, 'src/components/'),
-      '@store': path.resolve(__dirname, 'src/store/'),
-      '@utils': path.resolve(__dirname, 'src/utils/'),
-      '@pages': path.resolve(__dirname, 'src/pages/'),
-      '@layouts': path.resolve(__dirname, 'src/layouts/'),
-      '@images': path.resolve(__dirname, 'src/images/'),
-      '@styles': path.resolve(__dirname, 'src/styles/'),
+      '@/components': path.resolve(__dirname, 'src/components/'),
+      '@/store': path.resolve(__dirname, 'src/store/'),
+      '@/utils': path.resolve(__dirname, 'src/utils/'),
+      '@/pages': path.resolve(__dirname, 'src/pages/'),
+      '@/layouts': path.resolve(__dirname, 'src/layouts/'),
+      '@/images': path.resolve(__dirname, 'src/images/'),
+      '@/styles': path.resolve(__dirname, 'src/styles/'),
     },
   },
   entry: {
@@ -31,7 +31,7 @@ module.exports = {
         use: [
           'vue-style-loader',
           {
-            loader: 'styles-loader',
+            loader: 'css-loader',
             options: {
               esModule: false,
             },
