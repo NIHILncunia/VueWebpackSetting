@@ -1,6 +1,6 @@
 import { createApp } from 'vue';
 import App from './App';
 
-export const eventBus = createApp(App);
+export const app = createApp(App);
 
-createApp(App).mount('#app');
+app.mount('#app');

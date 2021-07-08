@@ -1,10 +1,8 @@
-import Vue from 'vue';
-import Vuex from 'vuex';
+import { createApp } from 'vue';
+import { createStore } from 'vuex';
+import App from '@/App';
 
-Vue.use(Vuex);
-// Vue와 스토어를 연결
-
-export default new Vuex.Store({
+const store = createStore({
   state: {
     // 중앙 스테이트
   },
@@ -18,3 +16,7 @@ export default new Vuex.Store({
     // 비동기를 사용할 때, 혹은 뮤테이션 여러개 실행할 때.
   },
 });
+
+const app = createApp(App);
+
+app.use(store);
