@@ -3,13 +3,13 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@components/*": ["./src/components/*"],
-      "@store/*": ["./src/store/*"],
-      "@utils/*": ["./src/utils/*"],
-      "@layouts/*": ["./src/layouts/*"],
-      "@pages/*": ["./src/pages/*"],
-      "@images/*": ["./src/images/*"],
-      "@styles/*": ["./src/styles/*"]
+      "@/components/*": ["./src/components/*"],
+      "@/store/*": ["./src/store/*"],
+      "@/utils/*": ["./src/utils/*"],
+      "@/layouts/*": ["./src/layouts/*"],
+      "@/data/*": ["./src/data/*"],
+      "@/images/*": ["./src/images/*"],
+      "@/styles/*": ["./src/styles/*"]
     }
   },
   "exclude": [
