@@ -1,4 +1,6 @@
-import Vue from 'vue';
+import { createApp } from 'vue';
 import App from './App';
 
-new Vue({ render: el => el(App), }).$mount('#root');
+export const eventBus = createApp(App);
+
+createApp(App).mount('#app');

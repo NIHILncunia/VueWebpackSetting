@@ -39,8 +39,8 @@ export default {
   updated() {
     // 생명주기 - 리렌더링
   },
-  beforeDestroy() {},
-  destroyed() {
+  beforeUnmount() {},
+  unmounted() {
     // 생명주기 - 소멸
   },
   methods: {

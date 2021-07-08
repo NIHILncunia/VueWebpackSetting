@@ -1,5 +1,5 @@
 const path = require('path');
-const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const { VueLoaderPlugin, } = require('vue-loader');
 
 module.exports = {
   mode: 'development',
@@ -49,6 +49,7 @@ module.exports = {
     path: path.join(__dirname, 'build'),
   },
   devServer: {
+    historyApiFallback: true,
     contentBase: path.join(__dirname, '/'),
     publicPath: '/build/',
     overlay: true,
