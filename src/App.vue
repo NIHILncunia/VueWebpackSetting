@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: '',
+  name: 'App',
   components: {
     // 컴포넌트
   },
